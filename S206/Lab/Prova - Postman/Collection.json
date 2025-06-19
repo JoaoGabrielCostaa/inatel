@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "e7960dfa-cfff-471a-97cc-79f542d8c41a",
+		"name": "S206 - Prova Postman API 2025 - JSONPlaceholder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "44751199"
+	},
+	"item": [
+		{
+			"name": "GET - Listar Usuários",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/users"
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Criar Postagem",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"S206 Postagem de Teste\",\n    \"body\": \"Conteúdo gerado na prova S206.\",\n    \"userId\": 1\n}"
+				},
+				"url": "https://jsonplaceholder.typicode.com/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Usuário Inexistente (Negativo)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/users/9999"
+			},
+			"response": []
+		}
+	]
+}
