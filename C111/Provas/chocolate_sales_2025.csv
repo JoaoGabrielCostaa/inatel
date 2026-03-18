@@ -1,0 +1,501 @@
+Sale_ID,Date,Brand,Product_Type,Country,Sales_Channel,Payment_Method,Price_USD,Units_Sold,Revenue_USD
+1,2025-11-24,Cadbury,Milk Chocolate,France,Supermarket,Digital Wallet,5.0,194,970.0
+2,2025-02-22,Lindt,Chocolate Bar,India,Online,Cash,17.73,144,2553.12
+3,2025-02-17,Toblerone,Dark Chocolate,Australia,Supermarket,Digital Wallet,7.42,134,994.28
+4,2025-11-29,Ferrero,Truffles,Italy,Convenience Store,Cash,18.28,112,2047.36
+5,2025-03-23,Cadbury,Milk Chocolate,France,Convenience Store,Cash,18.21,92,1675.32
+6,2025-02-17,Nestle,White Chocolate,Italy,Convenience Store,Cash,11.05,96,1060.8
+7,2025-08-24,Lindt,Chocolate Bar,UAE,Convenience Store,Digital Wallet,14.57,101,1471.57
+8,2025-04-09,Mars,Milk Chocolate,UAE,Online,Cash,18.35,16,293.6
+9,2025-02-21,Mars,White Chocolate,Germany,Convenience Store,Card,11.05,121,1337.05
+10,2025-04-18,Mars,Chocolate Box,UK,Supermarket,Digital Wallet,17.58,184,3234.72
+11,2025-05-06,Cadbury,Chocolate Box,Australia,Supermarket,Digital Wallet,6.18,102,630.36
+12,2025-06-16,Ferrero,Dark Chocolate,Saudi Arabia,Specialty Store,Card,21.46,19,407.74
+13,2025-02-03,Mars,White Chocolate,France,Specialty Store,Card,7.25,150,1087.5
+14,2025-11-26,Ferrero,Milk Chocolate,Australia,Convenience Store,Digital Wallet,12.82,72,923.04
+15,2025-10-27,Hershey,White Chocolate,France,Supermarket,Digital Wallet,12.14,154,1869.56
+16,2025-09-10,Nestle,Dark Chocolate,Germany,Supermarket,Digital Wallet,4.55,17,77.35
+17,2025-08-05,Hershey,Chocolate Bar,Canada,Convenience Store,Digital Wallet,15.92,103,1639.76
+18,2025-01-06,Mars,Chocolate Bar,UAE,Convenience Store,Cash,17.81,34,605.54
+19,2025-05-31,Lindt,Chocolate Box,UAE,Supermarket,Digital Wallet,12.28,121,1485.88
+20,2025-02-24,Nestle,Chocolate Box,Australia,Supermarket,Cash,22.09,81,1789.29
+21,2025-07-11,Nestle,Chocolate Bar,USA,Convenience Store,Card,19.66,143,2811.38
+22,2025-01-10,Nestle,White Chocolate,France,Online,Cash,5.02,97,486.94
+23,2025-10-18,Mars,Truffles,UK,Supermarket,Cash,23.81,26,619.06
+24,2025-12-04,Ferrero,White Chocolate,Australia,Specialty Store,Cash,13.19,145,1912.55
+25,2025-10-04,Ferrero,Chocolate Box,UAE,Specialty Store,Digital Wallet,19.49,181,3527.69
+26,2025-11-29,Hershey,Dark Chocolate,France,Supermarket,Cash,10.9,137,1493.3
+27,2025-06-23,Ferrero,Chocolate Bar,France,Online,Cash,2.97,146,433.62
+28,2025-12-29,Lindt,Dark Chocolate,Saudi Arabia,Online,Digital Wallet,16.7,63,1052.1
+29,2025-05-02,Ferrero,Chocolate Bar,Germany,Specialty Store,Cash,8.77,129,1131.33
+30,2025-08-31,Lindt,Dark Chocolate,India,Convenience Store,Card,20.67,53,1095.51
+31,2025-07-30,Lindt,Chocolate Box,UK,Online,Card,13.01,191,2484.91
+32,2025-06-23,Ferrero,Milk Chocolate,France,Specialty Store,Cash,20.51,32,656.32
+33,2025-08-05,Ferrero,Dark Chocolate,Canada,Online,Cash,6.63,123,815.49
+34,2025-11-30,Lindt,Milk Chocolate,Germany,Specialty Store,Card,24.98,8,199.84
+35,2025-09-04,Lindt,Milk Chocolate,India,Online,Card,7.31,107,782.17
+36,2025-05-16,Cadbury,Truffles,Australia,Specialty Store,Cash,23.35,121,2825.35
+37,2025-04-08,Toblerone,Chocolate Box,Australia,Online,Digital Wallet,9.18,19,174.42
+38,2025-06-10,Hershey,Chocolate Bar,Australia,Supermarket,Cash,3.79,154,583.66
+39,2025-09-18,Lindt,Chocolate Bar,UK,Supermarket,Card,4.3,52,223.6
+40,2025-03-03,Ferrero,Chocolate Bar,Italy,Online,Digital Wallet,23.69,150,3553.5
+41,2025-02-11,Toblerone,Chocolate Bar,Saudi Arabia,Convenience Store,Cash,11.93,154,1837.22
+42,2025-12-09,Cadbury,Truffles,Germany,Convenience Store,Card,18.61,66,1228.26
+43,2025-06-11,Lindt,Truffles,Italy,Online,Cash,23.4,23,538.2
+44,2025-10-03,Ferrero,White Chocolate,UK,Supermarket,Card,7.3,72,525.6
+45,2025-05-26,Mars,White Chocolate,Italy,Online,Digital Wallet,6.05,144,871.2
+46,2025-10-11,Lindt,Milk Chocolate,UAE,Online,Cash,9.24,174,1607.76
+47,2025-10-11,Toblerone,Milk Chocolate,Saudi Arabia,Supermarket,Digital Wallet,6.0,77,462.0
+48,2025-11-21,Hershey,White Chocolate,USA,Online,Digital Wallet,21.69,134,2906.46
+49,2025-08-05,Lindt,White Chocolate,Germany,Convenience Store,Cash,21.16,16,338.56
+50,2025-08-15,Toblerone,Dark Chocolate,UK,Online,Digital Wallet,14.91,114,1699.74
+51,2025-03-18,Toblerone,Chocolate Bar,Germany,Specialty Store,Cash,14.78,99,1463.22
+52,2025-01-22,Cadbury,Milk Chocolate,France,Online,Card,9.44,15,141.6
+53,2025-10-14,Toblerone,Chocolate Box,Germany,Supermarket,Cash,22.39,109,2440.51
+54,2025-04-01,Ferrero,Chocolate Box,Saudi Arabia,Specialty Store,Digital Wallet,22.33,11,245.63
+55,2025-05-08,Lindt,Truffles,USA,Specialty Store,Cash,8.5,184,1564.0
+56,2025-04-13,Cadbury,White Chocolate,France,Supermarket,Cash,20.87,122,2546.14
+57,2025-12-04,Cadbury,Dark Chocolate,UAE,Convenience Store,Digital Wallet,6.85,89,609.65
+58,2025-09-18,Cadbury,Dark Chocolate,UK,Convenience Store,Cash,11.49,142,1631.58
+59,2025-10-25,Lindt,Dark Chocolate,Italy,Specialty Store,Card,24.16,72,1739.52
+60,2025-06-10,Lindt,Truffles,Italy,Supermarket,Card,12.32,135,1663.2
+61,2025-01-23,Toblerone,Chocolate Bar,France,Convenience Store,Card,18.45,5,92.25
+62,2025-02-05,Toblerone,White Chocolate,UK,Convenience Store,Digital Wallet,23.85,89,2122.65
+63,2025-06-08,Hershey,Chocolate Box,UAE,Supermarket,Cash,17.51,88,1540.88
+64,2025-08-04,Mars,Chocolate Box,Germany,Convenience Store,Card,17.46,102,1780.92
+65,2025-10-08,Cadbury,Milk Chocolate,India,Convenience Store,Card,21.26,82,1743.32
+66,2025-08-15,Toblerone,Truffles,Germany,Online,Card,12.45,59,734.55
+67,2025-09-21,Cadbury,Dark Chocolate,France,Convenience Store,Cash,17.44,163,2842.72
+68,2025-04-12,Ferrero,Truffles,Italy,Online,Card,5.82,16,93.12
+69,2025-08-01,Ferrero,Chocolate Box,India,Specialty Store,Card,22.44,152,3410.88
+70,2025-05-05,Lindt,Dark Chocolate,India,Supermarket,Cash,5.82,181,1053.42
+71,2025-12-23,Toblerone,Milk Chocolate,UK,Specialty Store,Cash,14.15,17,240.55
+72,2025-08-26,Toblerone,White Chocolate,Canada,Specialty Store,Digital Wallet,17.52,148,2592.96
+73,2025-08-17,Nestle,Truffles,Canada,Convenience Store,Cash,22.69,195,4424.55
+74,2025-11-23,Hershey,Chocolate Box,France,Convenience Store,Card,8.74,138,1206.12
+75,2025-02-09,Cadbury,White Chocolate,Saudi Arabia,Online,Cash,18.55,65,1205.75
+76,2025-03-19,Ferrero,Chocolate Box,France,Online,Card,7.7,182,1401.4
+77,2025-07-28,Hershey,Dark Chocolate,France,Specialty Store,Card,9.94,124,1232.56
+78,2025-10-27,Nestle,Chocolate Bar,India,Specialty Store,Cash,23.79,10,237.9
+79,2025-06-30,Nestle,Truffles,Australia,Supermarket,Card,9.22,104,958.88
+80,2025-04-23,Lindt,Truffles,Saudi Arabia,Specialty Store,Digital Wallet,8.64,129,1114.56
+81,2025-03-26,Toblerone,Chocolate Bar,USA,Specialty Store,Digital Wallet,21.41,37,792.17
+82,2025-10-16,Mars,Truffles,Germany,Specialty Store,Cash,17.42,26,452.92
+83,2025-01-26,Ferrero,Truffles,Saudi Arabia,Convenience Store,Card,8.35,88,734.8
+84,2025-05-23,Cadbury,Dark Chocolate,Canada,Online,Digital Wallet,19.42,112,2175.04
+85,2025-10-04,Ferrero,Chocolate Box,UK,Online,Cash,3.67,94,344.98
+86,2025-05-07,Toblerone,Milk Chocolate,France,Supermarket,Card,6.99,10,69.9
+87,2025-12-09,Hershey,Chocolate Box,UAE,Convenience Store,Cash,5.07,60,304.2
+88,2025-11-07,Mars,Dark Chocolate,Germany,Convenience Store,Cash,16.16,196,3167.36
+89,2025-10-24,Toblerone,Chocolate Box,India,Specialty Store,Digital Wallet,3.08,84,258.72
+90,2025-04-12,Nestle,Chocolate Box,France,Online,Digital Wallet,4.21,181,762.01
+91,2025-06-04,Nestle,Dark Chocolate,Italy,Online,Card,21.63,158,3417.54
+92,2025-09-30,Lindt,Chocolate Bar,Saudi Arabia,Online,Card,12.14,99,1201.86
+93,2025-09-08,Mars,Truffles,Germany,Specialty Store,Cash,4.87,97,472.39
+94,2025-09-25,Toblerone,Chocolate Bar,Canada,Specialty Store,Card,24.22,74,1792.28
+95,2025-10-31,Nestle,Dark Chocolate,UAE,Specialty Store,Cash,8.54,67,572.18
+96,2025-08-26,Hershey,White Chocolate,USA,Specialty Store,Card,15.32,176,2696.32
+97,2025-04-04,Nestle,White Chocolate,Saudi Arabia,Convenience Store,Digital Wallet,13.47,95,1279.65
+98,2025-12-26,Lindt,Chocolate Bar,France,Online,Cash,22.3,147,3278.1
+99,2025-07-28,Ferrero,Chocolate Box,Canada,Specialty Store,Card,13.49,199,2684.51
+100,2025-01-09,Hershey,Chocolate Box,France,Convenience Store,Digital Wallet,4.59,61,279.99
+101,2025-10-25,Toblerone,White Chocolate,India,Convenience Store,Card,10.8,146,1576.8
+102,2025-12-26,Cadbury,Milk Chocolate,UK,Supermarket,Card,12.71,83,1054.93
+103,2025-03-03,Mars,Milk Chocolate,France,Supermarket,Digital Wallet,19.21,200,3842.0
+104,2025-09-05,Nestle,Chocolate Bar,Italy,Convenience Store,Cash,8.72,155,1351.6
+105,2025-04-10,Ferrero,White Chocolate,USA,Supermarket,Card,9.17,97,889.49
+106,2025-01-24,Cadbury,Chocolate Box,Germany,Specialty Store,Cash,24.42,146,3565.32
+107,2025-01-07,Hershey,Truffles,Saudi Arabia,Supermarket,Cash,15.42,125,1927.5
+108,2025-05-10,Lindt,Dark Chocolate,India,Specialty Store,Cash,23.67,127,3006.09
+109,2025-10-23,Ferrero,Milk Chocolate,Italy,Convenience Store,Cash,16.66,18,299.88
+110,2025-05-08,Hershey,Chocolate Bar,Italy,Supermarket,Digital Wallet,5.17,200,1034.0
+111,2025-07-14,Cadbury,Chocolate Bar,India,Convenience Store,Digital Wallet,12.64,118,1491.52
+112,2025-11-14,Lindt,Milk Chocolate,France,Convenience Store,Digital Wallet,3.86,194,748.84
+113,2025-02-11,Toblerone,Dark Chocolate,Germany,Online,Card,6.03,49,295.47
+114,2025-08-19,Cadbury,Dark Chocolate,France,Convenience Store,Digital Wallet,18.01,125,2251.25
+115,2025-05-25,Lindt,Chocolate Box,France,Convenience Store,Digital Wallet,18.32,121,2216.72
+116,2025-10-29,Hershey,Dark Chocolate,Australia,Supermarket,Digital Wallet,17.38,55,955.9
+117,2025-03-18,Lindt,Dark Chocolate,Germany,Convenience Store,Digital Wallet,22.94,41,940.54
+118,2025-10-19,Lindt,Truffles,UAE,Specialty Store,Card,23.23,117,2717.91
+119,2025-09-14,Lindt,Chocolate Bar,USA,Specialty Store,Digital Wallet,14.65,117,1714.05
+120,2025-06-15,Lindt,Milk Chocolate,Italy,Online,Digital Wallet,16.08,11,176.88
+121,2025-05-18,Nestle,Milk Chocolate,Canada,Specialty Store,Card,15.47,200,3094.0
+122,2025-04-03,Mars,Truffles,UK,Specialty Store,Card,24.93,116,2891.88
+123,2025-07-29,Lindt,Milk Chocolate,Saudi Arabia,Specialty Store,Digital Wallet,10.0,176,1760.0
+124,2025-09-11,Nestle,Chocolate Bar,USA,Specialty Store,Cash,8.98,107,960.86
+125,2025-06-11,Nestle,Truffles,Australia,Online,Digital Wallet,8.18,34,278.12
+126,2025-10-05,Ferrero,Chocolate Bar,Saudi Arabia,Specialty Store,Digital Wallet,12.89,18,232.02
+127,2025-08-15,Cadbury,Chocolate Bar,Germany,Convenience Store,Card,19.6,57,1117.2
+128,2025-12-24,Mars,Chocolate Bar,France,Supermarket,Card,13.41,12,160.92
+129,2025-10-10,Lindt,Milk Chocolate,UK,Specialty Store,Cash,2.81,109,306.29
+130,2025-11-28,Mars,White Chocolate,Australia,Convenience Store,Card,21.22,132,2801.04
+131,2025-09-05,Hershey,Chocolate Bar,Germany,Specialty Store,Cash,24.56,67,1645.52
+132,2025-11-03,Nestle,Dark Chocolate,UAE,Specialty Store,Card,13.94,39,543.66
+133,2025-09-17,Cadbury,Chocolate Box,UAE,Specialty Store,Cash,8.51,5,42.55
+134,2025-08-17,Cadbury,Chocolate Bar,Australia,Specialty Store,Card,14.62,93,1359.66
+135,2025-06-14,Ferrero,Chocolate Bar,India,Supermarket,Card,22.07,183,4038.81
+136,2025-01-23,Mars,Truffles,India,Supermarket,Card,9.66,126,1217.16
+137,2025-01-19,Cadbury,Dark Chocolate,Canada,Online,Digital Wallet,5.34,156,833.04
+138,2025-08-22,Hershey,Chocolate Box,Germany,Online,Card,2.85,41,116.85
+139,2025-05-16,Hershey,Chocolate Box,UK,Convenience Store,Digital Wallet,10.12,182,1841.84
+140,2025-10-01,Mars,Chocolate Box,Canada,Online,Digital Wallet,11.05,86,950.3
+141,2025-02-05,Cadbury,Milk Chocolate,UK,Specialty Store,Cash,7.78,180,1400.4
+142,2025-11-21,Hershey,Milk Chocolate,UAE,Online,Cash,18.34,30,550.2
+143,2025-06-16,Cadbury,White Chocolate,India,Supermarket,Cash,20.41,80,1632.8
+144,2025-09-29,Nestle,Milk Chocolate,Germany,Supermarket,Cash,11.77,179,2106.83
+145,2025-11-09,Mars,Milk Chocolate,Canada,Supermarket,Cash,22.09,163,3600.67
+146,2025-08-25,Cadbury,Chocolate Box,USA,Specialty Store,Card,16.85,122,2055.7
+147,2025-12-13,Hershey,White Chocolate,Italy,Convenience Store,Digital Wallet,14.8,23,340.4
+148,2025-08-06,Nestle,White Chocolate,France,Specialty Store,Card,18.03,121,2181.63
+149,2025-02-24,Cadbury,Chocolate Bar,UAE,Convenience Store,Cash,7.84,151,1183.84
+150,2025-12-04,Toblerone,Chocolate Box,USA,Specialty Store,Card,11.41,7,79.87
+151,2025-04-28,Ferrero,Chocolate Box,France,Convenience Store,Digital Wallet,16.16,95,1535.2
+152,2025-12-04,Mars,Dark Chocolate,USA,Convenience Store,Card,17.82,40,712.8
+153,2025-01-18,Ferrero,Dark Chocolate,UAE,Convenience Store,Digital Wallet,15.54,192,2983.68
+154,2025-08-01,Nestle,Chocolate Bar,Saudi Arabia,Convenience Store,Cash,6.45,38,245.1
+155,2025-05-12,Nestle,White Chocolate,Saudi Arabia,Online,Card,23.07,128,2952.96
+156,2025-02-08,Nestle,Chocolate Box,India,Convenience Store,Cash,5.67,62,351.54
+157,2025-07-22,Lindt,Truffles,Saudi Arabia,Convenience Store,Digital Wallet,2.81,142,399.02
+158,2025-07-15,Lindt,Chocolate Box,France,Specialty Store,Cash,21.0,100,2100.0
+159,2025-11-14,Cadbury,Chocolate Bar,France,Online,Digital Wallet,22.4,148,3315.2
+160,2025-08-26,Mars,Truffles,UK,Supermarket,Cash,22.96,82,1882.72
+161,2025-01-20,Lindt,Dark Chocolate,France,Supermarket,Card,9.35,131,1224.85
+162,2025-08-21,Mars,Chocolate Bar,India,Supermarket,Card,10.85,195,2115.75
+163,2025-12-02,Toblerone,Truffles,UAE,Online,Digital Wallet,4.73,130,614.9
+164,2025-07-09,Ferrero,White Chocolate,UK,Convenience Store,Digital Wallet,7.39,118,872.02
+165,2025-11-27,Cadbury,Milk Chocolate,UK,Specialty Store,Cash,10.57,106,1120.42
+166,2025-12-06,Toblerone,Dark Chocolate,USA,Convenience Store,Cash,7.27,168,1221.36
+167,2025-03-06,Lindt,Chocolate Bar,France,Supermarket,Cash,20.21,57,1151.97
+168,2025-06-18,Lindt,White Chocolate,Germany,Supermarket,Digital Wallet,19.92,157,3127.44
+169,2025-05-09,Mars,Dark Chocolate,Germany,Online,Card,20.47,33,675.51
+170,2025-05-02,Ferrero,White Chocolate,USA,Supermarket,Digital Wallet,15.75,9,141.75
+171,2025-08-04,Lindt,Truffles,Canada,Convenience Store,Digital Wallet,14.34,195,2796.3
+172,2025-10-31,Ferrero,Chocolate Bar,USA,Convenience Store,Card,4.95,133,658.35
+173,2025-11-26,Hershey,Truffles,India,Online,Card,24.19,20,483.8
+174,2025-12-31,Lindt,White Chocolate,Italy,Supermarket,Cash,22.97,23,528.31
+175,2025-03-06,Toblerone,Chocolate Bar,Saudi Arabia,Specialty Store,Digital Wallet,8.69,167,1451.23
+176,2025-09-29,Toblerone,Truffles,UK,Online,Digital Wallet,9.14,134,1224.76
+177,2025-11-30,Mars,Milk Chocolate,India,Specialty Store,Cash,22.25,146,3248.5
+178,2025-07-31,Hershey,Truffles,UK,Convenience Store,Card,10.13,121,1225.73
+179,2025-06-10,Ferrero,Chocolate Box,Canada,Online,Cash,17.46,100,1746.0
+180,2025-02-13,Mars,Chocolate Box,Saudi Arabia,Supermarket,Digital Wallet,4.6,29,133.4
+181,2025-01-31,Toblerone,White Chocolate,UK,Specialty Store,Card,15.7,148,2323.6
+182,2025-12-07,Nestle,Chocolate Box,USA,Convenience Store,Digital Wallet,23.68,113,2675.84
+183,2025-06-09,Toblerone,Milk Chocolate,Germany,Specialty Store,Cash,10.41,152,1582.32
+184,2025-02-25,Cadbury,Dark Chocolate,UAE,Supermarket,Card,10.38,147,1525.86
+185,2025-10-15,Toblerone,Chocolate Box,Australia,Online,Digital Wallet,24.43,164,4006.52
+186,2025-12-03,Lindt,Milk Chocolate,UAE,Convenience Store,Card,21.16,73,1544.68
+187,2025-06-29,Toblerone,Chocolate Box,India,Online,Cash,2.64,41,108.24
+188,2025-11-21,Mars,Chocolate Bar,France,Specialty Store,Card,24.37,28,682.36
+189,2025-08-21,Cadbury,Chocolate Box,Saudi Arabia,Online,Cash,10.17,99,1006.83
+190,2025-03-21,Lindt,Chocolate Box,UK,Convenience Store,Card,6.04,163,984.52
+191,2025-12-05,Hershey,Truffles,UAE,Supermarket,Digital Wallet,12.04,160,1926.4
+192,2025-02-28,Cadbury,Chocolate Box,Italy,Specialty Store,Digital Wallet,10.27,33,338.91
+193,2025-12-08,Hershey,Chocolate Bar,USA,Online,Cash,9.44,61,575.84
+194,2025-06-04,Nestle,White Chocolate,UAE,Convenience Store,Cash,23.77,40,950.8
+195,2025-01-04,Ferrero,Milk Chocolate,India,Supermarket,Digital Wallet,13.69,115,1574.35
+196,2025-10-14,Lindt,Truffles,USA,Specialty Store,Cash,21.25,95,2018.75
+197,2025-08-24,Toblerone,Truffles,Italy,Specialty Store,Digital Wallet,23.23,85,1974.55
+198,2025-11-24,Hershey,Dark Chocolate,Saudi Arabia,Supermarket,Digital Wallet,11.9,34,404.6
+199,2025-08-24,Lindt,Truffles,UK,Supermarket,Card,21.22,97,2058.34
+200,2025-10-29,Hershey,White Chocolate,Saudi Arabia,Supermarket,Card,11.51,25,287.75
+201,2025-03-28,Lindt,Chocolate Bar,Australia,Supermarket,Card,4.22,167,704.74
+202,2025-06-29,Nestle,Milk Chocolate,France,Online,Cash,18.87,170,3207.9
+203,2025-05-12,Ferrero,Chocolate Box,UK,Supermarket,Digital Wallet,6.94,159,1103.46
+204,2025-09-10,Nestle,Chocolate Bar,Canada,Convenience Store,Digital Wallet,12.94,149,1928.06
+205,2025-06-11,Hershey,Truffles,UAE,Convenience Store,Digital Wallet,5.9,22,129.8
+206,2025-01-29,Cadbury,Truffles,Canada,Online,Cash,10.42,23,239.66
+207,2025-07-08,Mars,Dark Chocolate,Italy,Specialty Store,Card,21.21,24,509.04
+208,2025-10-25,Lindt,Truffles,Italy,Supermarket,Card,14.97,194,2904.18
+209,2025-11-06,Lindt,Truffles,UK,Convenience Store,Digital Wallet,13.2,43,567.6
+210,2025-02-13,Lindt,Milk Chocolate,Canada,Specialty Store,Digital Wallet,13.85,49,678.65
+211,2025-09-25,Cadbury,White Chocolate,India,Specialty Store,Card,16.22,98,1589.56
+212,2025-12-14,Mars,White Chocolate,UK,Convenience Store,Cash,15.95,166,2647.7
+213,2025-10-13,Cadbury,Chocolate Box,Italy,Supermarket,Card,17.76,77,1367.52
+214,2025-02-11,Cadbury,White Chocolate,India,Supermarket,Digital Wallet,15.61,41,640.01
+215,2025-12-29,Toblerone,Truffles,Saudi Arabia,Supermarket,Digital Wallet,23.61,84,1983.24
+216,2025-12-26,Mars,Chocolate Bar,UK,Specialty Store,Digital Wallet,21.15,194,4103.1
+217,2025-07-05,Ferrero,Milk Chocolate,Saudi Arabia,Specialty Store,Cash,2.91,84,244.44
+218,2025-04-26,Lindt,White Chocolate,UK,Online,Digital Wallet,25.0,44,1100.0
+219,2025-06-22,Ferrero,Chocolate Bar,India,Supermarket,Cash,22.22,163,3621.86
+220,2025-04-03,Nestle,Milk Chocolate,Canada,Online,Card,21.21,164,3478.44
+221,2025-07-06,Hershey,Chocolate Bar,UAE,Specialty Store,Cash,17.72,65,1151.8
+222,2025-10-01,Nestle,Milk Chocolate,Saudi Arabia,Specialty Store,Card,7.88,125,985.0
+223,2025-05-25,Toblerone,Truffles,Germany,Supermarket,Digital Wallet,20.01,133,2661.33
+224,2025-03-12,Mars,Truffles,Saudi Arabia,Online,Digital Wallet,22.14,18,398.52
+225,2025-09-22,Lindt,Milk Chocolate,UAE,Specialty Store,Digital Wallet,21.65,77,1667.05
+226,2025-03-17,Ferrero,Truffles,Saudi Arabia,Online,Card,21.2,28,593.6
+227,2025-01-28,Ferrero,Truffles,UK,Convenience Store,Cash,11.42,100,1142.0
+228,2025-01-15,Nestle,Chocolate Box,Saudi Arabia,Supermarket,Cash,9.67,30,290.1
+229,2025-01-20,Mars,Milk Chocolate,Canada,Specialty Store,Digital Wallet,8.95,125,1118.75
+230,2025-01-03,Cadbury,Milk Chocolate,Germany,Specialty Store,Cash,22.88,9,205.92
+231,2025-05-28,Lindt,Milk Chocolate,India,Specialty Store,Cash,7.85,36,282.6
+232,2025-02-26,Toblerone,Chocolate Bar,USA,Supermarket,Digital Wallet,21.33,132,2815.56
+233,2025-03-15,Toblerone,White Chocolate,France,Specialty Store,Cash,9.05,5,45.25
+234,2025-12-07,Cadbury,Dark Chocolate,Australia,Online,Card,17.53,139,2436.67
+235,2025-08-29,Cadbury,White Chocolate,USA,Convenience Store,Cash,3.48,104,361.92
+236,2025-06-26,Mars,Dark Chocolate,Italy,Convenience Store,Cash,7.93,173,1371.89
+237,2025-01-23,Nestle,Chocolate Box,Germany,Specialty Store,Digital Wallet,10.43,91,949.13
+238,2025-09-03,Lindt,Chocolate Box,Canada,Online,Card,16.71,39,651.69
+239,2025-04-14,Lindt,White Chocolate,UAE,Specialty Store,Digital Wallet,3.49,56,195.44
+240,2025-08-31,Mars,Milk Chocolate,UAE,Convenience Store,Cash,8.2,197,1615.4
+241,2025-12-02,Nestle,White Chocolate,India,Specialty Store,Digital Wallet,9.97,36,358.92
+242,2025-08-14,Cadbury,Milk Chocolate,Canada,Specialty Store,Card,22.63,103,2330.89
+243,2025-09-23,Mars,Truffles,UK,Specialty Store,Digital Wallet,8.5,26,221.0
+244,2025-04-03,Lindt,Dark Chocolate,Saudi Arabia,Convenience Store,Card,14.77,87,1284.99
+245,2025-08-17,Ferrero,Chocolate Box,Canada,Convenience Store,Card,16.06,114,1830.84
+246,2025-01-22,Toblerone,Truffles,UAE,Online,Cash,18.85,95,1790.75
+247,2025-12-10,Toblerone,Chocolate Box,Germany,Online,Cash,16.84,98,1650.32
+248,2025-11-08,Lindt,Milk Chocolate,UK,Supermarket,Digital Wallet,17.76,117,2077.92
+249,2025-07-07,Lindt,Chocolate Bar,Germany,Specialty Store,Card,10.65,150,1597.5
+250,2025-07-10,Toblerone,Milk Chocolate,Australia,Convenience Store,Card,12.49,24,299.76
+251,2025-06-10,Lindt,Dark Chocolate,Germany,Specialty Store,Digital Wallet,17.12,68,1164.16
+252,2025-07-18,Cadbury,White Chocolate,Canada,Supermarket,Digital Wallet,23.05,35,806.75
+253,2025-05-27,Ferrero,Dark Chocolate,Germany,Online,Card,18.11,130,2354.3
+254,2025-03-30,Lindt,Chocolate Box,Saudi Arabia,Convenience Store,Digital Wallet,22.72,118,2680.96
+255,2025-02-03,Cadbury,Milk Chocolate,Germany,Convenience Store,Digital Wallet,14.87,79,1174.73
+256,2025-04-25,Nestle,Milk Chocolate,France,Specialty Store,Cash,5.23,56,292.88
+257,2025-07-04,Hershey,Chocolate Bar,Germany,Online,Cash,14.97,99,1482.03
+258,2025-06-08,Mars,Truffles,Australia,Specialty Store,Card,11.46,188,2154.48
+259,2025-10-22,Mars,Dark Chocolate,Canada,Specialty Store,Digital Wallet,4.16,86,357.76
+260,2025-09-22,Mars,Chocolate Bar,Germany,Supermarket,Card,10.25,146,1496.5
+261,2025-09-15,Nestle,Dark Chocolate,Australia,Supermarket,Card,22.99,19,436.81
+262,2025-03-26,Ferrero,White Chocolate,Australia,Convenience Store,Cash,6.14,186,1142.04
+263,2025-05-09,Cadbury,Milk Chocolate,UAE,Online,Digital Wallet,6.92,146,1010.32
+264,2025-11-25,Ferrero,Milk Chocolate,Italy,Convenience Store,Digital Wallet,6.29,153,962.37
+265,2025-01-22,Lindt,Dark Chocolate,Italy,Convenience Store,Digital Wallet,21.07,12,252.84
+266,2025-04-18,Toblerone,Chocolate Box,USA,Specialty Store,Digital Wallet,19.76,111,2193.36
+267,2025-10-07,Hershey,Milk Chocolate,India,Convenience Store,Card,9.02,82,739.64
+268,2025-02-07,Hershey,Truffles,Canada,Specialty Store,Cash,17.99,45,809.55
+269,2025-06-24,Nestle,Chocolate Box,Saudi Arabia,Convenience Store,Card,16.15,85,1372.75
+270,2025-03-08,Toblerone,Dark Chocolate,Saudi Arabia,Supermarket,Card,19.61,136,2666.96
+271,2025-03-04,Ferrero,Dark Chocolate,USA,Convenience Store,Card,8.52,68,579.36
+272,2025-11-12,Nestle,White Chocolate,Italy,Convenience Store,Cash,11.91,45,535.95
+273,2025-03-23,Hershey,Truffles,UAE,Specialty Store,Cash,13.71,136,1864.56
+274,2025-02-16,Hershey,Milk Chocolate,France,Convenience Store,Cash,23.77,134,3185.18
+275,2025-01-26,Nestle,Chocolate Box,Canada,Convenience Store,Digital Wallet,8.83,157,1386.31
+276,2025-01-05,Ferrero,White Chocolate,Saudi Arabia,Specialty Store,Card,21.56,115,2479.4
+277,2025-01-24,Toblerone,Milk Chocolate,Saudi Arabia,Convenience Store,Cash,11.51,150,1726.5
+278,2025-07-17,Toblerone,White Chocolate,Italy,Online,Cash,13.85,200,2770.0
+279,2025-02-19,Toblerone,White Chocolate,Germany,Supermarket,Digital Wallet,11.36,91,1033.76
+280,2025-09-18,Lindt,Dark Chocolate,Germany,Convenience Store,Card,11.53,15,172.95
+281,2025-09-23,Toblerone,Milk Chocolate,Saudi Arabia,Convenience Store,Cash,12.78,160,2044.8
+282,2025-07-21,Nestle,White Chocolate,Italy,Convenience Store,Digital Wallet,24.79,194,4809.26
+283,2025-09-18,Toblerone,White Chocolate,Canada,Online,Card,14.48,186,2693.28
+284,2025-06-19,Toblerone,White Chocolate,USA,Specialty Store,Card,17.66,111,1960.26
+285,2025-12-02,Toblerone,Milk Chocolate,USA,Specialty Store,Cash,20.12,153,3078.36
+286,2025-09-26,Nestle,Truffles,Germany,Supermarket,Cash,16.65,163,2713.95
+287,2025-10-21,Ferrero,Dark Chocolate,Canada,Convenience Store,Card,23.83,33,786.39
+288,2025-03-19,Hershey,Chocolate Bar,Italy,Specialty Store,Digital Wallet,11.79,57,672.03
+289,2025-02-01,Ferrero,Chocolate Bar,Saudi Arabia,Specialty Store,Digital Wallet,18.38,137,2518.06
+290,2025-07-12,Hershey,Chocolate Bar,Saudi Arabia,Convenience Store,Digital Wallet,9.56,49,468.44
+291,2025-12-15,Cadbury,Chocolate Bar,Canada,Supermarket,Cash,16.97,182,3088.54
+292,2025-05-23,Cadbury,White Chocolate,France,Specialty Store,Card,15.06,62,933.72
+293,2025-09-03,Cadbury,White Chocolate,UK,Specialty Store,Card,10.35,189,1956.15
+294,2025-06-26,Cadbury,Dark Chocolate,UAE,Online,Card,23.98,42,1007.16
+295,2025-08-15,Hershey,Milk Chocolate,France,Convenience Store,Digital Wallet,17.26,196,3382.96
+296,2025-12-23,Toblerone,Chocolate Box,Italy,Supermarket,Cash,8.61,32,275.52
+297,2025-01-26,Ferrero,Chocolate Box,France,Online,Cash,17.57,140,2459.8
+298,2025-07-31,Lindt,Chocolate Box,Germany,Online,Digital Wallet,9.93,125,1241.25
+299,2025-03-22,Hershey,Chocolate Box,France,Convenience Store,Card,11.66,126,1469.16
+300,2025-05-27,Mars,Chocolate Bar,France,Online,Cash,17.03,27,459.81
+301,2025-08-02,Lindt,Truffles,Canada,Supermarket,Digital Wallet,22.35,50,1117.5
+302,2025-05-29,Cadbury,Chocolate Bar,Italy,Online,Card,22.23,7,155.61
+303,2025-05-26,Toblerone,Chocolate Bar,Canada,Supermarket,Digital Wallet,12.72,169,2149.68
+304,2025-08-28,Cadbury,Milk Chocolate,Canada,Convenience Store,Digital Wallet,8.64,33,285.12
+305,2025-04-06,Nestle,White Chocolate,Italy,Supermarket,Cash,2.82,91,256.62
+306,2025-11-09,Nestle,Truffles,Australia,Convenience Store,Cash,21.76,108,2350.08
+307,2025-07-25,Ferrero,Truffles,Saudi Arabia,Supermarket,Cash,17.56,52,913.12
+308,2025-05-14,Nestle,White Chocolate,Saudi Arabia,Convenience Store,Digital Wallet,11.13,119,1324.47
+309,2025-10-21,Cadbury,Chocolate Box,France,Online,Digital Wallet,2.76,172,474.72
+310,2025-03-02,Hershey,Chocolate Box,Australia,Convenience Store,Digital Wallet,12.97,45,583.65
+311,2025-03-02,Cadbury,Chocolate Bar,France,Supermarket,Cash,16.87,80,1349.6
+312,2025-09-02,Toblerone,White Chocolate,India,Specialty Store,Digital Wallet,5.95,196,1166.2
+313,2025-12-07,Ferrero,Chocolate Box,Italy,Online,Digital Wallet,21.08,200,4216.0
+314,2025-08-17,Lindt,Chocolate Bar,UK,Online,Digital Wallet,14.38,97,1394.86
+315,2025-09-16,Ferrero,Milk Chocolate,Saudi Arabia,Specialty Store,Cash,7.05,142,1001.1
+316,2025-12-15,Hershey,Dark Chocolate,Australia,Specialty Store,Cash,7.12,154,1096.48
+317,2025-08-21,Hershey,Chocolate Bar,USA,Specialty Store,Digital Wallet,5.47,111,607.17
+318,2025-06-07,Cadbury,Dark Chocolate,France,Online,Cash,18.77,106,1989.62
+319,2025-08-05,Toblerone,Dark Chocolate,UK,Specialty Store,Cash,10.25,21,215.25
+320,2025-05-27,Nestle,Chocolate Box,India,Convenience Store,Card,11.7,39,456.3
+321,2025-08-18,Hershey,Dark Chocolate,Australia,Supermarket,Digital Wallet,22.07,101,2229.07
+322,2025-06-28,Hershey,Chocolate Bar,Germany,Supermarket,Cash,5.17,142,734.14
+323,2025-01-12,Mars,Chocolate Box,Australia,Specialty Store,Digital Wallet,24.52,123,3015.96
+324,2025-07-14,Hershey,White Chocolate,Germany,Convenience Store,Cash,21.03,68,1430.04
+325,2025-02-27,Hershey,Chocolate Bar,USA,Supermarket,Cash,3.22,174,560.28
+326,2025-02-04,Hershey,Chocolate Bar,USA,Supermarket,Digital Wallet,4.77,13,62.01
+327,2025-01-23,Toblerone,Milk Chocolate,USA,Supermarket,Digital Wallet,11.55,64,739.2
+328,2025-05-29,Toblerone,White Chocolate,Italy,Convenience Store,Cash,7.77,192,1491.84
+329,2025-06-04,Toblerone,Milk Chocolate,India,Convenience Store,Card,22.22,174,3866.28
+330,2025-02-01,Mars,Milk Chocolate,India,Specialty Store,Cash,15.03,156,2344.68
+331,2025-06-26,Hershey,Chocolate Bar,Saudi Arabia,Specialty Store,Card,23.69,176,4169.44
+332,2025-03-18,Nestle,Chocolate Bar,Canada,Supermarket,Cash,9.25,52,481.0
+333,2025-06-03,Nestle,Truffles,USA,Specialty Store,Card,21.79,41,893.39
+334,2025-10-13,Ferrero,White Chocolate,France,Convenience Store,Digital Wallet,14.42,104,1499.68
+335,2025-02-10,Lindt,Chocolate Bar,France,Online,Card,23.25,99,2301.75
+336,2025-07-13,Lindt,Dark Chocolate,France,Supermarket,Card,17.66,159,2807.94
+337,2025-04-17,Cadbury,Dark Chocolate,France,Supermarket,Digital Wallet,22.06,90,1985.4
+338,2025-03-02,Hershey,Milk Chocolate,Italy,Supermarket,Card,19.3,198,3821.4
+339,2025-05-03,Hershey,Truffles,Australia,Convenience Store,Card,14.92,77,1148.84
+340,2025-05-14,Hershey,Dark Chocolate,Canada,Convenience Store,Cash,10.59,132,1397.88
+341,2025-07-09,Toblerone,Milk Chocolate,Germany,Online,Card,9.54,16,152.64
+342,2025-10-11,Mars,Truffles,UAE,Supermarket,Cash,23.53,153,3600.09
+343,2025-06-18,Nestle,Milk Chocolate,Canada,Convenience Store,Card,7.68,150,1152.0
+344,2025-09-08,Mars,Truffles,Canada,Supermarket,Digital Wallet,24.25,169,4098.25
+345,2025-06-30,Toblerone,Truffles,Germany,Online,Digital Wallet,6.31,189,1192.59
+346,2025-01-18,Nestle,Chocolate Box,USA,Online,Card,21.38,24,513.12
+347,2025-03-12,Lindt,Chocolate Box,Germany,Online,Cash,21.46,64,1373.44
+348,2025-09-16,Toblerone,Chocolate Box,Italy,Specialty Store,Digital Wallet,12.76,20,255.2
+349,2025-09-07,Toblerone,Truffles,USA,Online,Digital Wallet,2.85,141,401.85
+350,2025-05-21,Lindt,Chocolate Bar,India,Supermarket,Cash,14.55,78,1134.9
+351,2025-02-19,Ferrero,Chocolate Bar,Australia,Convenience Store,Card,14.3,66,943.8
+352,2025-05-17,Cadbury,Truffles,Canada,Supermarket,Digital Wallet,20.39,25,509.75
+353,2025-04-26,Mars,Chocolate Box,USA,Online,Card,9.25,25,231.25
+354,2025-07-14,Lindt,Chocolate Box,USA,Supermarket,Cash,10.99,126,1384.74
+355,2025-09-13,Nestle,White Chocolate,Italy,Online,Digital Wallet,21.52,170,3658.4
+356,2025-01-22,Toblerone,Truffles,UAE,Online,Cash,7.67,182,1395.94
+357,2025-12-17,Toblerone,Chocolate Box,USA,Supermarket,Card,23.33,144,3359.52
+358,2025-01-09,Ferrero,Chocolate Box,India,Online,Card,24.13,155,3740.15
+359,2025-03-25,Nestle,Truffles,Australia,Convenience Store,Card,15.19,150,2278.5
+360,2025-03-13,Mars,Dark Chocolate,Australia,Convenience Store,Cash,20.29,181,3672.49
+361,2025-02-20,Cadbury,Chocolate Bar,Italy,Specialty Store,Card,12.33,24,295.92
+362,2025-01-16,Hershey,Milk Chocolate,Saudi Arabia,Specialty Store,Card,16.77,120,2012.4
+363,2025-04-06,Hershey,Dark Chocolate,Italy,Convenience Store,Cash,17.79,174,3095.46
+364,2025-02-07,Hershey,Chocolate Box,Germany,Specialty Store,Card,4.35,44,191.4
+365,2025-07-04,Cadbury,Truffles,Saudi Arabia,Convenience Store,Cash,4.9,6,29.4
+366,2025-03-09,Hershey,Chocolate Bar,Australia,Specialty Store,Cash,4.46,115,512.9
+367,2025-01-14,Lindt,Chocolate Bar,Italy,Convenience Store,Card,4.52,146,659.92
+368,2025-01-07,Nestle,Dark Chocolate,Australia,Supermarket,Digital Wallet,9.07,104,943.28
+369,2025-09-24,Ferrero,Milk Chocolate,UAE,Convenience Store,Card,6.32,102,644.64
+370,2025-09-10,Hershey,White Chocolate,India,Convenience Store,Card,5.78,47,271.66
+371,2025-02-09,Mars,Chocolate Box,Canada,Supermarket,Card,10.63,68,722.84
+372,2025-02-24,Hershey,White Chocolate,Italy,Specialty Store,Card,5.55,6,33.3
+373,2025-08-14,Toblerone,Milk Chocolate,UAE,Convenience Store,Digital Wallet,10.03,171,1715.13
+374,2025-12-22,Ferrero,Truffles,Saudi Arabia,Convenience Store,Digital Wallet,7.02,85,596.7
+375,2025-12-22,Nestle,Milk Chocolate,Saudi Arabia,Specialty Store,Card,16.74,152,2544.48
+376,2025-07-21,Ferrero,Chocolate Bar,Australia,Supermarket,Digital Wallet,10.71,149,1595.79
+377,2025-10-09,Hershey,Chocolate Box,France,Specialty Store,Card,3.11,191,594.01
+378,2025-12-21,Mars,Truffles,Germany,Convenience Store,Cash,4.06,109,442.54
+379,2025-05-10,Hershey,Truffles,UK,Specialty Store,Digital Wallet,17.32,188,3256.16
+380,2025-09-03,Toblerone,Chocolate Box,India,Online,Card,15.6,141,2199.6
+381,2025-12-26,Toblerone,Chocolate Box,UK,Online,Cash,22.65,142,3216.3
+382,2025-12-03,Mars,Chocolate Bar,USA,Specialty Store,Card,17.46,47,820.62
+383,2025-08-09,Cadbury,Milk Chocolate,Australia,Supermarket,Card,4.88,30,146.4
+384,2025-07-11,Toblerone,Chocolate Box,Australia,Supermarket,Card,11.3,178,2011.4
+385,2025-01-13,Hershey,Dark Chocolate,UK,Supermarket,Card,13.36,80,1068.8
+386,2025-06-09,Toblerone,Truffles,Saudi Arabia,Specialty Store,Cash,10.22,57,582.54
+387,2025-08-13,Cadbury,Dark Chocolate,UAE,Online,Digital Wallet,18.74,120,2248.8
+388,2025-02-28,Mars,Dark Chocolate,Germany,Supermarket,Digital Wallet,3.01,92,276.92
+389,2025-03-31,Toblerone,Truffles,Canada,Supermarket,Card,14.92,89,1327.88
+390,2025-11-19,Mars,Truffles,India,Online,Digital Wallet,6.65,168,1117.2
+391,2025-11-11,Toblerone,Truffles,India,Online,Digital Wallet,22.37,120,2684.4
+392,2025-04-20,Mars,Dark Chocolate,Italy,Online,Digital Wallet,7.13,197,1404.61
+393,2025-04-06,Hershey,Dark Chocolate,UAE,Specialty Store,Digital Wallet,10.73,55,590.15
+394,2025-11-24,Toblerone,Truffles,Italy,Online,Card,9.55,104,993.2
+395,2025-06-30,Ferrero,Chocolate Box,UAE,Online,Digital Wallet,21.52,163,3507.76
+396,2025-03-10,Cadbury,Dark Chocolate,Germany,Convenience Store,Digital Wallet,9.55,66,630.3
+397,2025-03-14,Toblerone,Milk Chocolate,Italy,Specialty Store,Card,13.99,112,1566.88
+398,2025-04-06,Mars,Chocolate Box,Germany,Supermarket,Card,13.45,142,1909.9
+399,2025-05-28,Nestle,Truffles,Italy,Online,Card,5.66,85,481.1
+400,2025-01-05,Nestle,Truffles,Australia,Specialty Store,Card,13.4,54,723.6
+401,2025-12-17,Nestle,Truffles,Canada,Supermarket,Cash,13.56,186,2522.16
+402,2025-10-17,Ferrero,White Chocolate,USA,Convenience Store,Cash,3.19,199,634.81
+403,2025-10-03,Toblerone,Chocolate Box,Canada,Online,Digital Wallet,9.0,122,1098.0
+404,2025-02-28,Nestle,White Chocolate,Australia,Online,Digital Wallet,8.53,144,1228.32
+405,2025-08-14,Lindt,Chocolate Box,France,Convenience Store,Cash,14.79,113,1671.27
+406,2025-08-19,Hershey,Dark Chocolate,France,Supermarket,Digital Wallet,8.41,27,227.07
+407,2025-10-29,Toblerone,Chocolate Box,India,Supermarket,Digital Wallet,18.01,186,3349.86
+408,2025-03-13,Nestle,Dark Chocolate,Italy,Convenience Store,Digital Wallet,20.16,57,1149.12
+409,2025-05-24,Cadbury,Chocolate Box,UAE,Convenience Store,Digital Wallet,15.93,48,764.64
+410,2025-05-17,Mars,Dark Chocolate,Germany,Specialty Store,Cash,23.93,136,3254.48
+411,2025-05-22,Mars,Milk Chocolate,France,Supermarket,Digital Wallet,22.01,37,814.37
+412,2025-06-14,Nestle,Chocolate Box,India,Specialty Store,Cash,21.14,199,4206.86
+413,2025-10-23,Hershey,Truffles,Canada,Online,Digital Wallet,16.73,165,2760.45
+414,2025-02-17,Cadbury,Chocolate Box,Saudi Arabia,Specialty Store,Card,11.56,196,2265.76
+415,2025-06-17,Lindt,Chocolate Box,Canada,Convenience Store,Cash,15.59,192,2993.28
+416,2025-10-01,Nestle,Milk Chocolate,Canada,Convenience Store,Card,11.45,114,1305.3
+417,2025-05-26,Ferrero,Chocolate Bar,Canada,Convenience Store,Digital Wallet,10.1,152,1535.2
+418,2025-01-25,Nestle,Truffles,USA,Online,Cash,3.53,165,582.45
+419,2025-08-14,Ferrero,Chocolate Box,Germany,Convenience Store,Cash,12.77,114,1455.78
+420,2025-05-21,Cadbury,Dark Chocolate,Saudi Arabia,Supermarket,Cash,4.6,97,446.2
+421,2025-07-22,Mars,Milk Chocolate,India,Online,Digital Wallet,16.58,190,3150.2
+422,2025-02-18,Lindt,Milk Chocolate,Italy,Supermarket,Digital Wallet,2.52,127,320.04
+423,2025-12-15,Mars,White Chocolate,UK,Specialty Store,Digital Wallet,12.51,7,87.57
+424,2025-03-09,Hershey,Dark Chocolate,UK,Online,Card,13.25,63,834.75
+425,2025-07-08,Hershey,Milk Chocolate,Germany,Online,Digital Wallet,22.32,40,892.8
+426,2025-10-16,Ferrero,Truffles,Saudi Arabia,Supermarket,Digital Wallet,2.69,171,459.99
+427,2025-03-19,Mars,Truffles,France,Online,Cash,23.2,162,3758.4
+428,2025-03-13,Mars,Truffles,Saudi Arabia,Specialty Store,Card,19.43,155,3011.65
+429,2025-03-13,Lindt,Milk Chocolate,Australia,Convenience Store,Digital Wallet,8.08,170,1373.6
+430,2025-01-14,Cadbury,Milk Chocolate,Australia,Supermarket,Digital Wallet,21.58,173,3733.34
+431,2025-07-20,Nestle,Milk Chocolate,Canada,Specialty Store,Cash,9.15,18,164.7
+432,2025-05-04,Lindt,Chocolate Bar,USA,Convenience Store,Card,13.74,157,2157.18
+433,2025-03-09,Hershey,White Chocolate,Australia,Supermarket,Card,11.2,150,1680.0
+434,2025-02-07,Lindt,White Chocolate,France,Online,Cash,2.88,22,63.36
+435,2025-07-23,Mars,Chocolate Bar,India,Specialty Store,Digital Wallet,13.9,165,2293.5
+436,2025-07-25,Toblerone,Chocolate Bar,Germany,Convenience Store,Cash,4.35,142,617.7
+437,2025-06-08,Nestle,Milk Chocolate,Australia,Convenience Store,Card,4.28,57,243.96
+438,2025-10-28,Mars,Chocolate Box,UK,Convenience Store,Digital Wallet,16.77,171,2867.67
+439,2025-08-12,Lindt,Milk Chocolate,UK,Specialty Store,Cash,18.92,66,1248.72
+440,2025-08-21,Cadbury,Chocolate Box,Germany,Online,Cash,16.28,19,309.32
+441,2025-12-29,Ferrero,Truffles,Saudi Arabia,Convenience Store,Cash,5.59,7,39.13
+442,2025-07-10,Mars,Dark Chocolate,USA,Convenience Store,Card,5.36,73,391.28
+443,2025-05-20,Mars,Chocolate Bar,UK,Specialty Store,Card,14.29,72,1028.88
+444,2025-09-19,Nestle,Chocolate Bar,Germany,Convenience Store,Cash,10.6,132,1399.2
+445,2025-05-11,Mars,Chocolate Box,UK,Supermarket,Digital Wallet,19.9,151,3004.9
+446,2025-09-18,Ferrero,Dark Chocolate,Canada,Convenience Store,Card,2.56,8,20.48
+447,2025-03-18,Toblerone,Chocolate Box,India,Supermarket,Card,6.53,14,91.42
+448,2025-05-08,Cadbury,White Chocolate,UK,Convenience Store,Cash,11.87,189,2243.43
+449,2025-09-15,Ferrero,Milk Chocolate,Australia,Online,Card,17.65,18,317.7
+450,2025-02-05,Nestle,White Chocolate,Saudi Arabia,Online,Digital Wallet,22.23,77,1711.71
+451,2025-08-22,Cadbury,Chocolate Bar,UAE,Supermarket,Card,2.68,56,150.08
+452,2025-07-08,Nestle,Milk Chocolate,Australia,Supermarket,Cash,15.81,131,2071.11
+453,2025-01-04,Ferrero,Chocolate Bar,Saudi Arabia,Online,Card,23.48,11,258.28
+454,2025-01-01,Nestle,Chocolate Box,UAE,Online,Cash,19.58,101,1977.58
+455,2025-09-29,Hershey,Dark Chocolate,Germany,Convenience Store,Cash,24.62,112,2757.44
+456,2025-01-23,Hershey,Chocolate Box,Saudi Arabia,Specialty Store,Digital Wallet,23.23,138,3205.74
+457,2025-02-13,Ferrero,Chocolate Box,India,Online,Digital Wallet,15.57,134,2086.38
+458,2025-10-18,Ferrero,Milk Chocolate,UAE,Convenience Store,Card,3.9,174,678.6
+459,2025-07-21,Cadbury,White Chocolate,Canada,Convenience Store,Cash,18.27,193,3526.11
+460,2025-02-08,Nestle,Chocolate Bar,UK,Supermarket,Cash,23.73,39,925.47
+461,2025-03-26,Hershey,Dark Chocolate,Australia,Convenience Store,Cash,12.62,85,1072.7
+462,2025-08-20,Nestle,Dark Chocolate,UK,Supermarket,Digital Wallet,9.44,72,679.68
+463,2025-06-05,Toblerone,Dark Chocolate,France,Convenience Store,Cash,21.09,183,3859.47
+464,2025-02-16,Hershey,Chocolate Bar,USA,Convenience Store,Card,18.5,96,1776.0
+465,2025-03-31,Nestle,Truffles,Australia,Supermarket,Cash,3.2,108,345.6
+466,2025-08-25,Lindt,Dark Chocolate,USA,Supermarket,Cash,4.79,40,191.6
+467,2025-04-12,Mars,Chocolate Box,UK,Convenience Store,Cash,21.03,100,2103.0
+468,2025-01-12,Mars,Truffles,Germany,Online,Card,24.94,55,1371.7
+469,2025-03-04,Lindt,Milk Chocolate,Italy,Specialty Store,Digital Wallet,3.46,123,425.58
+470,2025-07-22,Mars,Truffles,Germany,Convenience Store,Cash,13.66,102,1393.32
+471,2025-04-06,Ferrero,Dark Chocolate,Italy,Supermarket,Digital Wallet,8.69,119,1034.11
+472,2025-06-01,Hershey,Dark Chocolate,UK,Convenience Store,Card,13.73,145,1990.85
+473,2025-03-12,Nestle,Chocolate Bar,France,Online,Card,11.93,169,2016.17
+474,2025-07-03,Cadbury,Chocolate Bar,Australia,Convenience Store,Card,13.29,129,1714.41
+475,2025-05-19,Toblerone,Milk Chocolate,USA,Convenience Store,Cash,6.55,86,563.3
+476,2025-08-30,Ferrero,Milk Chocolate,UK,Supermarket,Digital Wallet,14.41,154,2219.14
+477,2025-05-04,Lindt,Milk Chocolate,Italy,Specialty Store,Card,8.5,193,1640.5
+478,2025-03-30,Cadbury,Chocolate Box,Saudi Arabia,Online,Digital Wallet,6.46,156,1007.76
+479,2025-12-25,Toblerone,Milk Chocolate,Italy,Supermarket,Card,10.41,150,1561.5
+480,2025-10-05,Lindt,Dark Chocolate,USA,Supermarket,Digital Wallet,9.45,130,1228.5
+481,2025-04-23,Lindt,White Chocolate,Italy,Supermarket,Cash,2.95,127,374.65
+482,2025-06-24,Lindt,Dark Chocolate,Germany,Supermarket,Cash,18.63,87,1620.81
+483,2025-09-27,Cadbury,Chocolate Box,India,Online,Card,21.87,23,503.01
+484,2025-06-04,Mars,Truffles,Canada,Convenience Store,Cash,9.76,45,439.2
+485,2025-12-29,Toblerone,White Chocolate,France,Supermarket,Card,24.3,182,4422.6
+486,2025-06-07,Ferrero,Milk Chocolate,USA,Specialty Store,Digital Wallet,19.01,80,1520.8
+487,2025-01-17,Nestle,Chocolate Bar,France,Online,Card,6.6,86,567.6
+488,2025-03-14,Ferrero,White Chocolate,Saudi Arabia,Supermarket,Digital Wallet,9.95,24,238.8
+489,2025-02-15,Mars,Chocolate Box,Saudi Arabia,Specialty Store,Cash,20.99,176,3694.24
+490,2025-05-16,Lindt,White Chocolate,UAE,Online,Digital Wallet,7.22,182,1314.04
+491,2025-01-01,Mars,Truffles,Germany,Specialty Store,Card,3.58,117,418.86
+492,2025-07-13,Lindt,Truffles,Italy,Supermarket,Cash,10.4,101,1050.4
+493,2025-08-20,Cadbury,Dark Chocolate,Saudi Arabia,Convenience Store,Cash,4.16,13,54.08
+494,2025-02-07,Ferrero,Chocolate Box,UK,Online,Card,10.19,101,1029.19
+495,2025-11-01,Mars,Dark Chocolate,India,Supermarket,Digital Wallet,24.67,128,3157.76
+496,2025-08-11,Cadbury,Milk Chocolate,France,Specialty Store,Digital Wallet,6.03,30,180.9
+497,2025-10-11,Toblerone,White Chocolate,UAE,Convenience Store,Cash,18.75,191,3581.25
+498,2025-02-19,Toblerone,Truffles,Germany,Online,Card,3.62,151,546.62
+499,2025-01-02,Nestle,Chocolate Box,Italy,Specialty Store,Cash,12.12,80,969.6
+500,2025-02-19,Mars,White Chocolate,UK,Specialty Store,Cash,3.08,48,147.84
